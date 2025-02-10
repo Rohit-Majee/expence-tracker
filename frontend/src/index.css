@@ -120,7 +120,13 @@ input {
 .income,.expense{
   font-family: 'Poppins', sans-serif;
 }
+.red{
+  color: red;
+}
 
+.green{
+  color: green;
+}
 @media(max-width:490px){
   .top{
    margin-left: auto;
