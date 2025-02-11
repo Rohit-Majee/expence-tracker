@@ -1,8 +1,14 @@
+import { motion } from "framer-motion";
+
 function List(props) {
-  
   return (
     <>
-      <div className="transaction">
+      <motion.div
+        className="transaction"
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.4 }}
+      >
         <div className="datetime">{props.date}</div>
         <div className="name">{props.name}</div>
         <div className={"price " + (props.price > 0 ? "green" : "red")}>
@@ -15,7 +21,7 @@ function List(props) {
         >
           X
         </button>
-      </div>
+      </motion.div>
     </>
   );
 }
