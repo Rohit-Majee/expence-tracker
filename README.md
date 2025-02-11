@@ -5,6 +5,8 @@ displays them in a list along with calculating your income and expence amount ,w
 
 It is a MERN project where :
 
-backend is made using node js and express
-frontend is made with react
-for database mongodb is used with mongoose
+  backend is made using node js and express
+  
+  frontend is made with react
+  
+  for database mongodb is used with mongoose
