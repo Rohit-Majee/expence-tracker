@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import List from "./List";
-import Heading from "./Heading";
+import List from "./components/List";
+import Heading from "./components/Heading";
 
 function App() {
   const [name, setname] = useState("");
